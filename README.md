@@ -50,7 +50,7 @@ Step 3: Copy UserID into notepad
 Step 1: git clone [https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git](https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git)
 Step 2: cd ai-log-monitoring-agent
 Step 3: python3 -m venv venv_name (Create Virtual Environment) 
-Step 4: venv_name/Scripts/activate (Activate Environment)
+Step 4: venv_name\Scripts\activate (Replace if Linux : venv_name/bin/activate)
 Step 5: pip install -r requirements.txt
 Step 6: Insert API Key, Bot API Token and UserID into log_agent.py  
 
@@ -83,16 +83,7 @@ Step 2: streamlit run dashboard.py
 Step 1: Open cmd by administrator  
 Step 2: Enter runas /user:hacker cmd (Replace any name in hacker)  
 
-🐧 Setup For Linux  
-📥 Clone & Install Dependencies
-Step 1: git clone [https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git](https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git)
-Step 2: cd ai-log-monitoring-agent
-Step 3: python3 -m venv venv_name (Create Virtual Environment) 
-Step 4: source venv_name/bin/activate (Activate Environment)
-Step 5: pip install -r requirements.txt
-Step 6: Insert API Key, Bot API Token and UserID into log_agent.py  
-
-⚙️ Setup In Linux (Systemd Service)
+🐧 Setup For Linux (Systemd Service)
 Step 1: Open Terminal  
 Step 2: Enter sudo nano /etc/systemd/system/log_agent.service  
 
