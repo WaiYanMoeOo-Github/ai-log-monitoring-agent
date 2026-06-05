@@ -63,10 +63,10 @@ Step 5: Click "Change User or Group..."
 Step 6: Enter "SYSTEM" into the object name to select (examples) box and then click "OK"  
 Step 7: Check "Run with highest privileges"  
 Step 8: Check "Hidden"  
-Step 9: Click "Trigger" Tab  
+Step 9: Click "Trigger" Tab and Click "New"
 Step 10: Select "At startup" in Begin the task  
 Step 11: Choose "30 seconds" in Delay task for. And then click "OK"  
-Step 12: Click "Action" Tab  
+Step 12: Click "Action" Tab and Click "New" 
 Step 13: Choose "Start a program" in Action  
 Step 14: Browse python.exe in Program/script "(Eg. C:\Users\Username\Desktop\ai-log-monitoring-agent\venv_name\Scripts\pythonw.exe)"
 Step 15: Write log_agent.py in Add arguments box.  
