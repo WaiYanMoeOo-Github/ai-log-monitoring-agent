@@ -121,4 +121,4 @@ Step 3: streamlit run dashboard.py (Run Dashboard)
 
 🧪 Test by Hydra
 Step 1: Open Terminal  
-Step 2: Enter sudo hydra -l root -p wrongpassword ssh://127.0.0.1 -t 7 (Attack)  
+Step 2: Enter sudo hydra -l root -p wrongpassword ssh://127.0.0.1 -t 7 (Attack)
