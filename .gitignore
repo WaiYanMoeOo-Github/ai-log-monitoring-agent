@@ -1,0 +1,6 @@
+# Environments
+log_monitor/
+
+# Python Caches
+__pycache__/
+*.pyc
