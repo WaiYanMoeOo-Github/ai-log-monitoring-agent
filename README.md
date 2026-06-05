@@ -16,16 +16,14 @@ An intelligent, cross-platform security agent that monitors system logs in real-
 - **Streamlit** (Data Visualization)
 
 ## 📸 Screenshots
+### 📊 Dashboard
 <img width="1280" height="601" alt="Image" src="https://github.com/user-attachments/assets/9edb198f-2a0a-44c0-bf48-08452bee208d" />
 
+### 🚨 Telegram Alert
 <img width="435" height="312" alt="Image" src="https://github.com/user-attachments/assets/774aabdd-23cb-4532-8bad-1c20ca9ef5e0" />
 
 ## 🚀 Installation & Setup
-**1. Clone the repository:**
 ```bash
-git clone [https://github.com/WaiYanMoeOo-Github/log-monitoring-agent.git](https://github.com/WaiYanMoeOo-Github/)
-cd log-monitoring-agent
-
 🔑 1. Create API Key
 Step 1: Go to https://aistudio.google.com/  
 Step 2: Enter get API key page  
@@ -49,13 +47,11 @@ Step 2: Click "Start"
 Step 3: Copy UserID into notepad  
 
 🪟 Setup For Windows
-📦 Install Libraries
-Step 1: Open CMD with run as administrator  
-Step 2: pip install -r requirements.txt
-
-📥 Download Script
-Step 1: Download log_agent.py & dashboard.py  
-Step 2: Insert API Key, Bot API Token and UserID into log_agent.py  
+📥 Clone the repository
+Step 1: git clone [https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git](https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git)
+Step 2: cd log-monitoring-agent
+Step 3: pip install -r requirements.txt
+Step 4: Insert API Key, Bot API Token and UserID into log_agent.py  
 
 ⚙️ Setup In Windows (Task Scheduler)
 Step 1: Search Task Scheduler  
