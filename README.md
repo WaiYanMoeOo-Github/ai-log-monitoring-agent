@@ -44,19 +44,20 @@ Step 8: Click created bot link and then "Start"
 🆔 3. Get Telegram UserID
 Step 1: Search "@userinfobot"  
 Step 2: Click "Start"  
-Step 3: Copy UserID into notepad  
+Step 3: Copy UserID into notepad
 
-🪟 Setup For Windows
-📥 Clone & Install Dependencies
+📥 4. Clone & Install Dependencies
 Step 1: git clone [https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git](https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git)
 Step 2: cd ai-log-monitoring-agent
-Step 3: pip install -r requirements.txt
-Step 4: Insert API Key, Bot API Token and UserID into log_agent.py  
+Step 3: python3 -m venv venv_name (Create Virtual Environment) 
+Step 4: venv_name/Scripts/activate (Activate Environment)
+Step 5: pip install -r requirements.txt
+Step 6: Insert API Key, Bot API Token and UserID into log_agent.py  
 
 ⚙️ Setup In Windows (Task Scheduler)
 Step 1: Search Task Scheduler  
 Step 2: Click "Action" Tab  
-Step 3: Click "Create Task..."  
+Step 3: Click "Create Task..."
 Step 4: Give task name (Eg. AI Security Agent)  
 Step 5: Click "Change User or Group..."  
 Step 6: Enter "SYSTEM" into the object name to select (examples) box and then click "OK"  
@@ -67,7 +68,7 @@ Step 10: Select "At startup" in Begin the task
 Step 11: Choose "30 seconds" in Delay task for. And then click "OK"  
 Step 12: Click "Action" Tab  
 Step 13: Choose "Start a program" in Action  
-Step 14: Browse python.exe in Program/script """If you didn't know the location, open cmd and enter where python. And then, copy the path into the Program/script box. And change python.exe to pythonw.exe."""
+Step 14: Browse python.exe in Program/script "(Eg. C:\Users\Username\Desktop\ai-log-monitoring-agent\venv_name\Scripts\pythonw.exe)"
 Step 15: Write log_agent.py in Add arguments box.  
 Step 16: Write the path that the log_agent.py script existed in Start in box.  
 Step 17: Click "Ok". (If appear warning box to change the path click "NO")  
@@ -75,7 +76,8 @@ Step 18: Click "OK"
 Step 19: Restart your device.  
 
 📊 Run Dashboard
-Step 1: py -m streamlit run dashboard.py 
+Step 1: venv_name\Scripts\activate
+Step 2: streamlit run dashboard.py 
 
 🧪 Test by Runas
 Step 1: Open cmd by administrator  
