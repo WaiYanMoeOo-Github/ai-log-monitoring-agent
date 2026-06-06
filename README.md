@@ -49,9 +49,9 @@ Step 3: Copy UserID into notepad
 📥 4. Clone & Install Dependencies
 Step 1: git clone [https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git](https://github.com/WaiYanMoeOo-Github/ai-log-monitoring-agent.git)
 Step 2: cd ai-log-monitoring-agent
-Step 3: python3 -m venv venv_name (Create Virtual Environment. Please use py -m venv venv_name in window.) 
-Step 4: venv_name\Scripts\activate (Replace if Linux : venv_name/bin/activate)
-Step 5: pip install -r requirements.txt
+Step 3: py -m venv venv_name (Create Virtual Environment. If Linux : python3 -m venv venv_name) 
+Step 4: venv_name\Scripts\activate (If Linux : source venv_name/bin/activate)
+Step 5: pip install -r requirements.txt (If Error : pip install watchdog google-genai requests streamlit pandas --break-system-packages)
 Step 6: Insert API Key, Bot API Token and UserID into log_agent.py  
 
 ⚙️ Setup In Windows (Task Scheduler)
