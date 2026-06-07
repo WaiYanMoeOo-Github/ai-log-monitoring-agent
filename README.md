@@ -1,6 +1,9 @@
 # 🛡️ AI-Powered Security Log Monitoring Agent
 
-An intelligent, cross-platform security agent that monitors system logs in real-time, detects brute-force attacks or unauthorized access, and sends AI-analyzed alerts via Telegram. 
+An intelligent, cross-platform security agent that monitors system logs in real-time, detects brute-force attacks or unauthorized access, and sends AI-analyzed alerts via Telegram.
+
+## ⚙️ System Diagram
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/1d94d628-0eda-418d-a383-869a981acbbe" />
 
 ## ✨ Features
 - **Cross-Platform:** Works seamlessly on both Windows (Event Viewer) and Linux (auth.log/journalctl).
